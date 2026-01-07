@@ -86,10 +86,9 @@ def define_brightness():
         print("input a correct number")
         define_brightness()
         return None, None
-        
+while True:            
+    if __name__ == "__main__":
+        url = url_selection_function()
+        on_off= check_light_status()
+        user_select_what_to_do(on_off)
 
-
-if __name__ == "__main__":
-    url = url_selection_function()
-    on_off= check_light_status()
-    user_select_what_to_do(on_off)
