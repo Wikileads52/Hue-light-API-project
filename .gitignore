@@ -4,5 +4,5 @@ __pycache__
 venv/*
 this_file.txt
 hue_ca.pem
-requirement.txt
 pyvenv.cfg
+pip_installed.txt
