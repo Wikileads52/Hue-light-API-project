@@ -1,0 +1,8 @@
+.env
+.pyenv.cfg
+__pycache__
+venv/*
+this_file.txt
+hue_ca.pem
+requirement.txt
+pyvenv.cfg
