@@ -42,6 +42,9 @@ def url_room_selection():
                     print(f"You selected: {selected_rooms}")
                     print(f"You selected: {selected_room_rid}")
                     url = f"https://{Bridge_IP}/clip/v2/resource/grouped_light/{selected_room_rid}"
+                    
+                    print(url)
+
                     break
                 else:
                     print("Invalid selection")

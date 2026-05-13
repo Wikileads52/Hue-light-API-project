@@ -1,0 +1,29 @@
+{
+    "weather_map_settings": {   
+        "wheather_map_update_interval": 1,
+        "weather_map_prefered_location_name": "Paris",
+        "weather_prefered_location_coordinates": {
+                "lat": 48.866667,
+                "lon": 2.33333
+            },
+        "weather_prefered_units": "metric"
+    },
+    "hue_bridge_settings":{
+        "favorites_actions":[
+            {
+                "name": "Turn on the corridor light",
+                "light_id": "",
+                "action": {
+                    "on": true
+                }
+            },
+            {
+                "name" : "Turn off the corridor light",
+                "light_id": "",
+                "action": {
+                    "on": false
+                }
+            }
+        ]
+    }
+}
